@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="TestScripts">
+			<folder name="BrightStarFullRegression">
+				<folder name="Home">
+					<folder name="FindPeople Advanced">
+						<child name="FindPeople_Advanced" key="{A2B6E842-5906-4609-8E99-86594C5A6DF6}" path="FindPeople_Advanced.js" />
+						<child name="FindPeopleSearch" key="{BFDA3E89-E24D-4F32-AA58-2DBDD31416E0}" path="FindPeopleSearch.js" />
+					</folder>
+					<folder name="Change Center">
+						<child name="ChangeCenter" key="{D6DD2ACE-AAF8-485E-8863-92BEC4C4020F}" path="ChangeCenter.js" />
+						<child name="ChangeCenter_Advanced" key="{0A2A4E81-5BE3-494A-A92B-92B6382713B9}" path="ChangeCenter_Advanced.js" />
+					</folder>
+					<folder name="Logout">
+						<child name="Logout" key="{0EB8DA72-6B16-4373-8E74-CB59648BFBCE}" path="Logout.js" />
+					</folder>
+					<folder name="Home Page">
+						<child name="Home_Page_Child_Statistics" key="{68CC7ACD-33D8-4718-BFD6-677536311D83}" path="Home_Page_Child_Statistics.js" />
+						<child name="Home_Page_ToDos" key="{2CA0C030-1491-4788-8BD3-EC6160734D73}" path="Home_Page_ToDos.js" />
+						<child name="Home_Page_WhatsNew" key="{37FDD659-7470-458B-845A-6D1DCCDB0A1C}" path="Home_Page_WhatsNew.js" />
+					</folder>
+					<folder name="Brightstar Login">
+						<child name="BrightStar_Login" key="{0208DE56-5755-4232-8FB8-263E5A9301EF}" path="BrightStar_Login.js" />
+					</folder>
+				</folder>
+				<folder name="BillingAndPayments">
+					<child name="RecordManualTransaction" key="{B09E94C1-73C8-4DE0-B170-BF2229B42603}" path="RecordManualTransaction.js" />
+				</folder>
+				<folder name="Child Management">
+					<child name="Child_Management" key="{CA31B3A0-9A39-4812-A2C7-A4BA5FECCC54}" path="Child_Management.js" />
+					<child name="Advanced_Child_Management" key="{8C26C02E-5DC8-43B3-A3D3-2FC7538F5C27}" path="Advanced_Child_Management.js" />
+				</folder>
+				<folder name="Center Management">
+					<child name="CenterManagement" key="{B3912C6C-391A-4CE6-87EA-C86E0BF13C9B}" path="CenterManagement.js" />
+					<child name="CenterProfile" key="{1A3677EB-CB55-4FA6-94D3-A3F2CA1233D1}" path="CenterProfile.js" />
+					<child name="CenterMessages" key="{DC3DB053-5118-41D7-9E87-D81A26E1A25F}" path="CenterMessages.js" />
+					<child name="ManageLocations" key="{7A8624FE-A299-46B4-835B-688A74DE2EE7}" path="ManageLocations.js" />
+					<child name="EnrichmentProviders" key="{EDB23D77-2A22-4FA2-B31B-7C56D99FC1D4}" path="EnrichmentProviders.js" />
+					<child name="RegistrationPromotions" key="{3141BF54-F0C1-4B32-86DA-83ECECB71228}" path="RegistrationPromotions.js" />
+				</folder>
+			</folder>
+			<folder name="Utilities">
+				<child name="ImportUnits" key="{5F18C299-AE49-4ADC-A744-A8D47AFC9458}" path="ImportUnits.js" />
+				<child name="ObjectRepository" key="{9F60D518-A19C-48CC-B45A-55022F718DE5}" path="ObjectRepository.js" />
+				<child name="GlobalVariables" key="{18C5F1DC-C6BC-4A41-A11C-39EF2140A181}" path="GlobalVariables.js" />
+				<child name="GenericFunctions" key="{20B3D0B7-CAD3-485D-9CEE-3975A1C6AF57}" path="GenericFunctions.js" />
+				<child name="ReusableFunctions" key="{22614CD4-B895-4978-A983-119C40BE5E37}" path="ReusableFunctions.js" />
+				<child name="Sample1" key="{DD86392A-2BF7-4380-882B-C0E28E10D391}" path="Sample1.js" />
+			</folder>
+			<child name="Sample" key="{E73CC1AF-7123-4645-B89B-352D6CC5EB0D}" path="Sample.js" />
+		</folder>
+	</children>
+</Root>

@@ -1,0 +1,94 @@
+Scenario Outline: Verify the fileds existence of Enrichment provider
+    Given Navigate to required center <CenterNumber>
+    And click on enrichment providers link
+    When search for provider<Provider> and click on search button
+    And click on Add provider button
+    Then verify the fields existence
+     
+  Examples:
+    |CenterNumber|Provider    |
+    |"0000"      |"ProviderA"|
+    
+  Scenario Outline: Add Enrichment provider and affliate to the center
+    Given click on enrichment providers link
+    When search for provider<Provider> and click on search button
+    And click on Add provider button
+    And Enter the required details<ProviderName>,<AffliateCenter>,<CenterName>,<PContactName>,<PMail>,<PContactNumber>,<Insured>,<Notes>
+    Then click on save and close
+    And select inactive from status and search for<ProviderName>
+    And validate the added provider<ProviderName> is displayed in the list
+     
+  Examples:
+    |CenterNumber|Provider    |ProviderName|AffliateCenter|CenterName|PContactName|PMail|PContactNumber|Insured|Notes|
+    |"0000"      |"ProviderA"|"ProviderA"|"0102"|"Bright Horizons Family Solutions"|"Harris"|"Harris@test.com"|"222-345-5432"|"Yes"|"Sample Notes"|
+    
+  Scenario Outline: Go to affiliated center and check in enrichment providers list
+    Given Navigate to required center <CenterNumber>
+    When click on center managemnet and enrichment providers links
+    And click on my providers button
+    Then validate the  Provider<Provider> displayed in the list of enrichment providers
+    
+  Examples:
+    |CenterNumber|Provider   |
+    |"0102"      |"ProviderA"|
+    
+  Scenario Outline: Click on enrichment provider and add insurance certificate
+    Given click on Provider<Provider> from the list of enrichment providers
+    When click on actions button
+    And click on Add insurance certificate link
+    And Browse the file name<FileName>, enter expiry date<Edate>
+    And click on save and close button
+    Then validate the file is uploaded/edited or not
+    
+  Examples:
+    |CenterNumber|Provider   |FileName|Edate|
+    |"0102"      |"ProviderA"|"C:\\Users\\E008279\\Documents\\BHFullServices\\BrightStar\\TestData\\childattendanceweekly.pdf"|"12-29-2023"|
+    
+  Scenario Outline: Edit insurance certificate of provider
+    When click on actions button
+    And click on Edit insurance certificate link
+    And Browse the file name<FileName>, enter expiry date<Edate>
+    And click on save and close button
+    Then validate the file is uploaded/edited or not
+    
+  Examples:
+    |CenterNumber|Provider   |FileName|Edate|
+    |"0102"      |"ProviderA"|"C:\\Users\\E008279\\Documents\\BHFullServices\\BrightStar\\TestData\\childhealthcareevents.pdf"|"12-29-2023"|
+    
+  Scenario: Delete insurance certificate of provider
+    When click on actions button
+    And click on Delete insurance certificate link
+    And click on Ok button
+    Then Validate insurance certificate is deleted
+    
+  Scenario Outline: Add provider agreement of the provider
+    Given click on options button of affiliation center<CenterName>
+    When click on Add provider agreement link
+    And Browse the file name<FileName>, enter expiry date<Edate>
+    And click on save and close button
+    Then validate the file name<FileName> displayed in the center affiliation grid
+    
+  Examples:
+    |CenterName                                |FileName      |Edate       |
+    |"0102 - Bright Horizons Family Solutions" |"variable.pdf"|"12-29-2023"|
+    
+  Scenario Outline: Edit provider agreement of the provider
+    Given click on options button of affiliation center<CenterName>
+    When click on Edit provider agreement link
+    And Browse the file name<FileName>, enter expiry date<Edate>
+    And click on save and close button
+    Then validate the file name<FileName> displayed in the center affiliation grid
+    
+  Examples:
+    |CenterName                                |FileName      |Edate       |
+    |"0102 - Bright Horizons Family Solutions" |"childhealthcareevents.pdf"|"12-29-2023"|
+    
+  Scenario Outline: Delete provider agreement of the provider
+    Given click on options button of affiliation center<CenterName>
+    When click on delete provider agreement link
+    And click on Ok button
+    Then validate the file name<FileName> displayedor not in the center affiliation grid
+    
+  Examples:
+    |CenterName                                |FileName      |Edate       |
+    |"0102 - Bright Horizons Family Solutions" |"childhealthcareevents.pdf"|"12-29-2023"|

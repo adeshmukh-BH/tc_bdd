@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenarios>
+	<Folder Name="BrightStarFullRegression">
+		<Folder Name="Home">
+			<Folder Name="FindPeople Advanced">
+				<Feature Path="FindPeople Advanced.feature" />
+				<Feature Path="FindPeopleSearch.feature" />
+			</Folder>
+			<Folder Name="Change Center">
+				<Feature Path="ChangeCenter.feature" />
+				<Feature Path="ChangeCenter_Advanced.feature" />
+			</Folder>
+			<Folder Name="Logout">
+				<Feature Path="Logout.feature" />
+			</Folder>
+			<Folder Name="Home Page">
+				<Feature Path="Home Page.feature" />
+			</Folder>
+			<Folder Name="Brightstar Login">
+				<Feature Path="Login.feature" />
+			</Folder>
+		</Folder>
+		<Folder Name="BillingAndPayments">
+			<Feature Path="RecordManualTransaction.feature" />
+		</Folder>
+		<Folder Name="Child Management">
+			<Feature Path="Child_Management.feature" />
+			<Feature Path="Advanced_Child_Management.feature" />
+			<Feature Path="ChildManagement_RecordManualTransaction.feature" />
+		</Folder>
+		<Folder Name="Center Management">
+			<Feature Path="CenterManagement.feature" />
+			<Feature Path="CenterProfile.feature" />
+			<Feature Path="CenterMessages.feature" />
+			<Feature Path="ManageLocations.feature" />
+			<Feature Path="EnrichmentProviders.feature" />
+			<Feature Path="RegistrationPromotions.feature" />
+		</Folder>
+	</Folder>
+</Scenarios>
