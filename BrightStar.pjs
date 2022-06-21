@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{9906A3DF-2A11-46C4-B94B-A42853837ECD}">
+	<children>
+		<child name="BrightStar" key="{838E1323-7295-4993-B26C-406B8F246260}" path="BrightStar.mds" />
+	</children>
+	<testItems key="{5258605A-B650-4F39-A337-3CE131D854D6}">
+		<children>
+			<testItem key="{838E1323-7295-4993-B26C-406B8F246260}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{0B0DCBA5-758E-48ED-9565-A321099CFC04}" />
+	<analysis key="{5EE6C350-CBF7-4B79-B5EE-BBCE0E63B7F0}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

@@ -2,9 +2,7 @@
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<child name="Script" key="{4F38BD9E-F458-4C5A-8EA7-CF70A62BA9B5}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
-		<child name="KeywordTests" key="{13C52705-BB4C-402B-8796-77614616E306}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="NameMapping" key="{1434ABFB-5B89-4E4E-AB7D-BCC6F2BAD2E0}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
-		<child name="TestedApps" key="{335E4D62-0528-4687-9B78-53DAFAE1D6D9}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 		<child name="Scenarios" key="{7A078AF4-9B83-4EE1-BC96-01AD6CC08B8B}" type="Scenarios" typeId="{146B1623-3D4E-46FF-A0E5-CC234C212913}" pluginName="Gherkin / BDD" path="Scenarios\Scenarios.tcTestCases" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
